@@ -1,0 +1,140 @@
+Instructor: In this session,
+
+let's learn about PL/SQL packages.
+
+Before learning what are packages,
+
+let's try to understand few things.
+
+Why do we save all the movies in a movie folder?
+
+Why do we save all the documents in a document folder?
+
+Hmm? Just think about it.
+
+It just better organization, right?
+
+You are logically grouping common objects into one folder.
+
+Like all movies go to movies folder,
+
+all documents go to document folder,
+
+all pictures go to pictures folder.
+
+Just like that, you group your files.
+
+In the same way, a package is a schema object
+
+that logically groups your PL/SQL types, items,
+
+and subprograms like procedures and functions.
+
+It can also hold exception declarations,
+
+variable declarations, cursors, and type declarations.
+
+Okay, a package contains two parts.
+
+It is the specification and the body.
+
+Okay, what are the advantages of packages?
+
+Number one, modularity.
+
+Packages let you encapsulate the logically-related types,
+
+items and subprograms in a named PL/SQL module.
+
+Okay, each package is defined in such a way
+
+that it is easy to understand,
+
+it's simple, clear, and well-defined.
+
+Okay, the second advantage, easier application design.
+
+What this means is, as we learned,
+
+a package contains of the specification and the body.
+
+So when designing an application,
+
+you initially write the specification.
+
+Okay, once you are done with your specification,
+
+you can just compile it, okay?
+
+Until you are really finished with your code,
+
+you did not write your package bodies.
+
+Okay, example, in your specification section,
+
+you say I want to write add customer, delete customer,
+
+and update customer and process data procedure, okay?
+
+You just defined that in the specification,
+
+and you give the specification to the developers.
+
+They can start developing the code.
+
+Okay? The third advantage, information hiding.
+
+With packages, you can really define which programs
+
+can be made visible to the public
+
+and which can be defined as private.
+
+Okay, by hiding these implementation details from the users,
+
+you can protect the integrity of a package.
+
+Okay, the fourth advantage, better performance.
+
+Whenever you call a package subprogram for the first time,
+
+the entire package is loaded into the the memory.
+
+So whenever you call the related subprograms,
+
+it just goes to that memory and executes that.
+
+It did not go to the disc and get the package,
+
+so we achieve better performance.
+
+The fifth advantage, it has lot of added functionality.
+
+What that means is if you define variables and cursors
+
+in the package, they can be shared across the subprogram
+
+in that package.
+
+Okay, even the data in the transaction can be saved
+
+across the subprogram in the package.
+
+Because of this functionality,
+
+packages are really desirable, okay?
+
+So even though you start writing procedures and function,
+
+later on, you take these procedures and functions
+
+and organize them into packages.
+
+Okay, in the next sessions,
+
+let's learn how to define a package specification, okay?
+
+information alert
+Schedule learning time
+Learning a little each day adds up. Research shows that students who make learning a habit are more likely to reach their goals. Set time aside to learn and get reminders using your learning scheduler.
+Using PL/SQL learn how to combine the efficiency of SQL & Procedural Language(PL) to build a powerful PL/SQL Application
