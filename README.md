@@ -36,6 +36,7 @@ OIC in the same implementation, you would have to use an agent to connect to the
 
 
 **3. Connection**
+
 · Connections are the various connectors that can be utilized to communicate with
 external applications. Communication can be done with conventional systems like File,
 FTP, etc., and also with new social media and other applications, like LinkedIn, Facebook,
@@ -46,12 +47,14 @@ required FTP Adapter to make a connection with the application.
 
 
 **4. Lookup**
+
 It is used for providing mapping in integration.
 We use lookups in the integration to create reusable tables that map the different terms used to describe the same item across your applications
 E.g. Lookup for country code and country Name (US- United State, In - India, M- Male)
 
 
 **5. Library**
+
 In Oracle integration cloud OIC, JavaScript is used to enhance integration flows by adding custom logic and processing capabilities. It allows 
 Developers to create reusable libraries for data transformations, invoke external services like APIs, Enforce business rules, and manage error
 Handling. By using JavaScript, OIC integrations making complex workflows easier to manage and automate.
@@ -60,6 +63,7 @@ Here we can create functions which can be used in integration
 Functions are configured in the Library editor page to be used in the orchestration canvas.
 
 **6. Package**
+
 Group Similar integrations: Packages allow you to group related integrations together improving organization and management.
 Efficient Versioning : Packages help with managing different versions of integrations, ensuring that older versions can be maintained alongside newer ones.
 Promotions Across Environments: Packages simplify the process of promoting integrations from one environment (e.g. development) to another (E.g. production)
